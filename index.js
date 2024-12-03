@@ -103,4 +103,8 @@ module.exports = class HypercoreError extends Error {
   static DECODING_ERROR (msg = 'Decoding error') {
     return new HypercoreError(msg, 'DECODING_ERROR', HypercoreError.DECODING_ERROR)
   }
+
+  static SESSION_MOVED (msg = 'Session moved') {
+    return new HypercoreError(msg, 'SESSION_MOVED', HypercoreError.SESSION_MOVED)
+  }
 }
