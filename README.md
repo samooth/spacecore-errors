@@ -1,15 +1,15 @@
-# hypercore-errors
+# spacecore-errors
 
-Hypercore errors
+spacecore errors
 
 ```
-npm i hypercore-errors
+npm i spacecore-errors
 ```
 
 ## Usage
 
 ```js
-const { BLOCK_NOT_AVAILABLE } = require('hypercore-errors')
+const { BLOCK_NOT_AVAILABLE } = require('spacecore-errors')
 
 throw BLOCK_NOT_AVAILABLE()
 ```
